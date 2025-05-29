@@ -80,8 +80,8 @@ h1 {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #fd0000;
+    color: rgb(192, 245, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -90,7 +90,7 @@ h1 {
 }
 
 .restart-btn:hover {
-    background-color: #45a049;
+    background-color: #9924e7;
 }
 
 @media (max-width: 480px) {
