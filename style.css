@@ -104,3 +104,26 @@ h1 {
         height: 70px;
     }
 }
+#reveal-button {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    background-color: #ffeb3b;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, background-color 0.2s ease-in-out;
+}
+
+#reveal-button:hover {
+    background-color: #ffcc00;
+    transform: scale(1.1);
+}
+
+#reveal-button:focus {
+    outline: none;
+}
